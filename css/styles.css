@@ -77,6 +77,9 @@ body, p {
 .indent {
 	padding-left: 1.25rem;
 }
+.empat {
+	border-radius: 40px;
+}
 
 h1 {
 	color: #484a46;
@@ -727,7 +730,7 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .dropdown-item:hover .item-text {
-	color: #14bf98;
+	color: red;
 }
 
 .navbar-custom .dropdown-items-divide-hr {
@@ -772,14 +775,14 @@ input[type='checkbox'] {
 /*    04. Header     */
 /*********************/
 .header {
-	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/header-background.jpg') center center no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/home.jpg') center center no-repeat;
 	background-size: cover;
 }
 
 .header .header-content {
 	padding-top: 8rem;
 	padding-bottom: 2.125rem;
-	text-align: center;
+	text-align: left;
 }
 
 .header .text-container {
