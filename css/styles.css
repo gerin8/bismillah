@@ -1746,6 +1746,28 @@ input[type='checkbox'] {
 	line-height: 1.375rem;
 }
 
+/**********************/
+/*  Menu pada Footer  */
+/**********************/
+
+.menufooter {
+	padding-top: 1rem;
+	background-color: #000000;
+}
+
+.menufooter ul {
+  list-style:none; /*menghilangkan dot list*/
+}
+.menufooter a {
+  text-decoration:none; /*menghilangkan garis bawah*/
+  color: #000; /*memberi warna hitam*/
+  font-weight:bold; /*menebalkan font menu*/
+}
+
+.menufooter li {
+  display:inline; /*membuat menu menjadi Horizontal*/
+  padding:25px; /*ngasi jarak atas bawah kiri kanan di menu*/
+}
 
 /*************************/
 /*     18. Copyright     */
