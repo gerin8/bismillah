@@ -134,6 +134,12 @@ a.white,
 	font-style: italic;
 }
 
+.testimonial-text1 {
+	font-style: bold;
+	text-align: right;
+	font-size: 30px;
+}
+
 .testimonial-author {
 	font: 700 1rem/1.375rem "Montserrat", sans-serif;
 }
@@ -175,10 +181,44 @@ strong {
 	font: 700 0.75rem/0 "Montserrat", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
+
 }
 
 .btn-solid-lg:hover {
 	background-color: #000000;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.btn-solid-photo {
+	display: inline-block;
+	padding: 1.375rem 2.125rem 1.375rem 2.125rem;
+	border: 0.125rem solid #FF0000;
+	border-radius: 0.25rem;
+	background-color: transparent;
+	color: #FF0000;
+	font: 700 0.75rem/0 "Montserrat", sans-serif;
+	text-decoration: none;
+	transition: all 0.2s;
+	font-size: 30px;
+}
+
+.btn-solid-photo2 {
+	display: inline-block;
+	padding: 1.375rem 2.125rem 1.375rem 2.125rem;
+	border: 0.125rem solid #FF0000;
+	border-radius: 0.25rem;
+	background-color: transparent;
+	color: #FF0000;
+	font: 700 0.75rem/0 "Montserrat", sans-serif;
+	text-decoration: none;
+	transition: all 0.2s;
+	font-size: 30px;
+	margin-left: 400px;
+}
+
+.btn-solid-photo:hover {
+	background-color: #FF0000;
 	color: #FFFFFF;
 	text-decoration: none;
 }
@@ -814,17 +854,103 @@ input[type='checkbox'] {
     box-shadow: none;
 }
 
+
+/***************************************/
+/*    Header View More Photoshoot      */
+/***************************************/
+.headerphoto {
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../Project Make Over Service/photo_2021-05-25_10-05-02.jpg') center center no-repeat;
+	background-size: cover;
+}
+
+
+.headerphoto h1 {
+	margin-bottom: 0.5rem;
+	color: #fff;
+}
+
+.headerphoto .p-large-photo {
+	margin-bottom: 2rem;
+	color: #dfe5ec;
+}
+
+.headerphoto .btn-solid-photo {
+	margin-right: 0.5rem;
+	margin-bottom: 1.25rem;
+}
+
+.form-control-borderless {
+    border: none;
+}
+
+
+/*********************/
+/*    Service     */
+/*********************/
+
+.service {
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/home.jpg') center center no-repeat;
+	background-size: cover;
+}
+
+.service .service-content {
+	padding-top: 8rem;
+	padding-bottom: 2.125rem;
+	text-align: left;
+}
+
+.service .text-container {
+	margin-bottom: 3rem;
+}
+
+.service h1 {
+	margin-bottom: 0.5rem;
+	color: #fff;
+}
+
+.service .p-large {
+	margin-bottom: 2rem;
+	color: #dfe5ec;
+}
+
+.service .btn-solid-lg {
+	margin-right: 0.5rem;
+	margin-bottom: 1.25rem;
+}
+
+.form-control-borderless {
+    border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
 /*********************/
 /*     05. Intro     */
 /*********************/
 .basic-1 {
 	padding-top: 6.5rem;
 	padding-bottom: 3rem;
+	text-align: center;
 }
 
 .basic-1 .text-container {
 	margin-bottom: 3rem;
 }
+
+.basic-1 .text-container1 {
+	margin-bottom: 3rem;
+	text-align: left;
+}
+
+.basic-1 .text-container2 {
+	margin-bottom: 3rem;
+	text-align: right;	
+}
+
 
 .basic-1 .section-title {
 	margin-bottom: 0.5rem;
@@ -832,6 +958,7 @@ input[type='checkbox'] {
 
 .basic-1 h2 {
 	margin-bottom: 1.375rem;
+	font-size: 25px;
 }
 
 .basic-1 .testimonial-author {
@@ -918,10 +1045,11 @@ input[type='checkbox'] {
 	text-align: center;
 }
 
-.cards-2 h2 {
+.cards-2 h1 {
 	margin-bottom: 3.25rem;
 	text-align: center;
 }
+
 
 .cards-2 .card {
 	margin-bottom: 5.625rem;
@@ -1109,6 +1237,12 @@ input[type='checkbox'] {
 }
 
 .tabs #tab-1 .progress-container .title {
+	margin-bottom: 0.25rem;
+	color: #484a46;
+	font: 600 0.875rem/1.25rem "Open Sans", sans-serif;
+}
+
+.tabs #tab-1 .progress-container .titleservice {
 	margin-bottom: 0.25rem;
 	color: #484a46;
 	font: 600 0.875rem/1.25rem "Open Sans", sans-serif;
@@ -1504,8 +1638,17 @@ input[type='checkbox'] {
 .basic-2 {
 	padding-top: 6.375rem;
 	padding-bottom: 3.375rem;
-	background-color: #fbfbfb;
 	text-align: center;
+}
+
+.basic-2-photo {
+	padding-top: 6.375rem;
+	padding-bottom: 3.375rem;
+	text-align: center;
+}
+
+.basic-2-photo h2 {
+	margin-bottom: 0.75rem;
 }
 
 .basic-2 h2 {
